@@ -79,7 +79,10 @@ body {
     margin-bottom: 50px;
 
 }
+.btn-primary:hover{
+    background: #64eef3;
 
+}
 .g3-title-img {
     position: relative;
     bottom: 100px;
