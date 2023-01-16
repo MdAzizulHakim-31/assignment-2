@@ -9,8 +9,7 @@ body {
 .container {
     background-color: rgba(255, 144, 14, 0.1);
     width: 1920px;
-    height: 1422px;
-    /* margin-bottom: 85px; */
+    height: 1322px;
 }
 
 .heading-title {
@@ -47,6 +46,8 @@ body {
 }
 
 .g3-brand {
+    position: relative;
+    bottom: 100px;
     font-weight: 700;
     font-size: 64px;
     text-align: center;
@@ -54,6 +55,8 @@ body {
 }
 
 .g3-sub-brand {
+    position: relative;
+    bottom: 100px;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
@@ -62,10 +65,10 @@ body {
 }
 
 .btn-primary {
+    position: relative;
+    bottom: 100px;
     width: 180px;
     height: 64px;
-    left: 870px;
-    top: 463px;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -78,9 +81,8 @@ body {
 }
 
 .g3-title-img {
-    width: 1440px;
-    height: 700px;
-    margin-bottom: 45px;
+    position: relative;
+    bottom: 100px;
     border-radius: 8px;
 }
 
@@ -94,7 +96,7 @@ body {
     margin-bottom: 450px;
 }
 
-/* .middle-title {} */
+/* .middle-title  */
 
 .middle-sub-title {
     display: flex;
@@ -127,36 +129,34 @@ body {
 }
 
 .middle-side-sub-item {
+    position: relative;
+    top: 6px;
+    left: 200px;
     font-weight: 400;
     font-size: 16px;
     color: #727272;
 }
 
-.loving-features {
-    /* font-weight: 700;
-font-size: 45px;
-width: 468px;
-height: 106px;
-left: 266px;
-top: 2284px; */
-}
+/*----- Lower middle section ----- */
 
-.loving-features-title .box {
-    width: 5px;
-    height: 106px;
+.feature-box .box {
+    position: relative;
+    left: 8px;
+    top: 160px;
+    width: 3px;
+    height: 115px;
+    border: none;
     background: #FF900E;
-    left: 240px;
-    top: 2284px;
 }
 
 .features-title {
+    position: relative;
+    left: 40px;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
     width: 468px;
     height: 106px;
-    left: 266px;
-    top: 2284px;
 }
 
 .features-sub-title {
@@ -178,16 +178,11 @@ top: 2284px; */
     margin-left: 240px;
     display: flex;
     gap: 145px;
-    /* flex-direction: row; */
 }
 
 .lower-info-content {
     font-weight: 600;
     font-size: 20px;
-    /* width: 252px; */
-    /* height: 23px; */
-    /* left: 273px; */
-    /* top: 2552px; */
     color: #131313;
 }
 
@@ -195,9 +190,14 @@ top: 2284px; */
     font-weight: 400;
     font-size: 16px;
     width: 514px;
-    /* height: 78px; */
     left: 270px;
     top: 2585px;
+}
+
+.lower-middle {
+    position: relative;
+    right: 40px;
+
 }
 
 .desktop-info {
@@ -209,15 +209,18 @@ top: 2284px; */
 }
 
 .architect-img {
+    position: relative;
+    bottom: 240px;
     width: 708px;
     height: 982px;
 }
 
 .btn-secondary {
+    position: relative;
+    bottom: 360px;
+    right: 70px;
     width: 342px;
     height: 200px;
-    left: 870px;
-    top: 463px;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -234,4 +237,117 @@ top: 2284px; */
 .btn-ex {
     font-weight: 500;
     font-size: 25px;
+}
+
+/* ----- Some fact section ----- */
+.facts-sub-title,
+.facts-sub-title-info {
+    position: relative;
+    left: 220px;
+    bottom: 250px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.facts-sub-title-info {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.facts-box {}
+
+
+.box-1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 242px;
+    height: 242px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.box-1:hover {
+    border: 1px solid #0699fc;
+}
+
+.box-img {
+    margin-top: 40px;
+    align-items: center;
+}
+
+.box-num {
+    font-weight: 600;
+    font-size: 50px;
+    color: #424242;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-info {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.facts-box {
+    width: 1920px;
+}
+
+.fact {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 200px;
+}
+
+.sponsors {
+    width: 1920px;
+}
+
+.sponsor {
+    position: relative;
+    bottom: 100px;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+}
+
+.sponsor-info {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+.sponsor-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.last-item {
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    margin-left: 240px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+.footer {
+    position: relative;
+    top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
 }
