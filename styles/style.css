@@ -1,0 +1,148 @@
+/* -----work-sans font----- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans';
+    background-color: #ffffff;
+}
+
+.container {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1422px;
+    /* margin-bottom: 85px; */
+}
+
+.heading-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 228px;
+    top: 50px;
+}
+
+.heading-g3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-bar {
+    font-weight: 500px;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    margin-right: 240px;
+    color: #424242;
+
+}
+
+.g3-title {
+    text-align: center;
+}
+.g3-sub-title{
+    margin-top: 10px;
+}
+.g3-brand {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.g3-sub-brand {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 526px;
+    margin-right: 526px;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    left: 870px;
+    top: 463px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.g3-title-img {
+    width: 1440px;
+    height: 700px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+}
+
+.team-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    width: 342px;
+    height: 342px;
+    margin-top: 85px;
+}
+
+.middle-title {}
+
+.middle-sub-title {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.middle-side {
+    width: 537px;
+    height: 304px;
+    margin-top: 250px;
+    margin-left: 450px;
+}
+
+.middle-side-item {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.of-our {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.features {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.middle-side-sub-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.loving-features-title{
+    font-weight: 700;
+font-size: 45px;
+width: 468px;
+height: 106px;
+left: 266px;
+top: 2284px;
+}
+.loving-features-title .box {
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+    left: 240px;
+    top: 2284px;
+
+}
