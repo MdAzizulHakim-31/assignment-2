@@ -41,9 +41,11 @@ body {
 .g3-title {
     text-align: center;
 }
-.g3-sub-title{
+
+.g3-sub-title {
     margin-top: 10px;
 }
+
 .g3-brand {
     font-weight: 700;
     font-size: 64px;
@@ -89,9 +91,10 @@ body {
     width: 342px;
     height: 342px;
     margin-top: 85px;
+    margin-bottom: 450px;
 }
 
-.middle-title {}
+/* .middle-title {} */
 
 .middle-sub-title {
     display: flex;
@@ -102,8 +105,7 @@ body {
 .middle-side {
     width: 537px;
     height: 304px;
-    margin-top: 250px;
-    margin-left: 450px;
+    margin-left: 470px;
 }
 
 .middle-side-item {
@@ -130,19 +132,106 @@ body {
     color: #727272;
 }
 
-.loving-features-title{
-    font-weight: 700;
+.loving-features {
+    /* font-weight: 700;
 font-size: 45px;
 width: 468px;
 height: 106px;
 left: 266px;
-top: 2284px;
+top: 2284px; */
 }
+
 .loving-features-title .box {
     width: 5px;
     height: 106px;
     background: #FF900E;
     left: 240px;
     top: 2284px;
+}
 
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    width: 468px;
+    height: 106px;
+    left: 266px;
+    top: 2284px;
+}
+
+.features-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    width: 586px;
+    height: 78px;
+    margin-top: 25px;
+    color: #727272;
+
+}
+
+.loving-features {
+    margin-left: 266px;
+
+}
+
+.lower-middle-info {
+    margin-left: 240px;
+    display: flex;
+    gap: 145px;
+    /* flex-direction: row; */
+}
+
+.lower-info-content {
+    font-weight: 600;
+    font-size: 20px;
+    /* width: 252px; */
+    /* height: 23px; */
+    /* left: 273px; */
+    /* top: 2552px; */
+    color: #131313;
+}
+
+.lower-info-sub-content {
+    font-weight: 400;
+    font-size: 16px;
+    width: 514px;
+    /* height: 78px; */
+    left: 270px;
+    top: 2585px;
+}
+
+.desktop-info {
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.architect-img {
+    width: 708px;
+    height: 982px;
+}
+
+.btn-secondary {
+    width: 342px;
+    height: 200px;
+    left: 870px;
+    top: 463px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-year {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.btn-ex {
+    font-weight: 500;
+    font-size: 25px;
 }
